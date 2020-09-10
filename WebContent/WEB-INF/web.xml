@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <display-name>TP01_publicacoesUFSJ</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+      <servlet-name>ServletLogin</servlet-name>
+      <servlet-class>Servlets.ServletLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>ServletLogin</servlet-name>
+      <url-pattern>/ServletLogin</url-pattern>
+   </servlet-mapping>
+   
+   <servlet>
+      <servlet-name>ServletCarregaRelatorio</servlet-name>
+      <servlet-class>Servlets.ServletCarregaRelatorio</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>ServletCarregaRelatorio</servlet-name>
+      <url-pattern>/ServletCarregaRelatorio</url-pattern>
+   </servlet-mapping>
+   
+   <servlet>
+      <servlet-name>ServletCarregaUsuarios</servlet-name>
+      <servlet-class>Servlets.ServletCarregaUsuarios</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>ServletCarregaUsuarios</servlet-name>
+      <url-pattern>/ServletCarregaUsuarios</url-pattern>
+   </servlet-mapping>
+   
+   <servlet>
+      <servlet-name>ServletCarregaInformacoesUsuario</servlet-name>
+      <servlet-class>Servlets.ServletCarregaInformacoesUsuario</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>ServletCarregaInformacoesUsuario</servlet-name>
+      <url-pattern>/ServletCarregaInformacoesUsuario</url-pattern>
+   </servlet-mapping>
+   
+   <servlet>
+      <servlet-name>ServletCarregaDepartamentos</servlet-name>
+      <servlet-class>Servlets.ServletCarregaDepartamentos</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>ServletCarregaDepartamentos</servlet-name>
+      <url-pattern>/ServletCarregaDepartamentos</url-pattern>
+   </servlet-mapping>
+   
+   <servlet>
+      <servlet-name>ServletCarregaInformacoesDepartamento</servlet-name>
+      <servlet-class>Servlets.ServletCarregaInformacoesDepartamento</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>ServletCarregaInformacoesDepartamento</servlet-name>
+      <url-pattern>/ServletCarregaInformacoesDepartamento</url-pattern>
+   </servlet-mapping>
+   
+   <servlet>
+      <servlet-name>ServletCarregaRecursosFinanceiros</servlet-name>
+      <servlet-class>Servlets.ServletCarregaRecursosFinanceiros</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>ServletCarregaRecursosFinanceiros</servlet-name>
+      <url-pattern>/ServletCarregaRecursosFinanceiros</url-pattern>
+   </servlet-mapping>
+   
+   <servlet>
+      <servlet-name>ServletCarregaInformacoesRecursoFinanceiro</servlet-name>
+      <servlet-class>Servlets.ServletCarregaInformacoesRecursoFinanceiro</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>ServletCarregaInformacoesRecursoFinanceiro</servlet-name>
+      <url-pattern>/ServletCarregaInformacoesRecursoFinanceiro</url-pattern>
+   </servlet-mapping>
+   
+   <servlet>
+      <servlet-name>ServletCarregaAreas</servlet-name>
+      <servlet-class>Servlets.ServletCarregaAreas</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>ServletCarregaAreas</servlet-name>
+      <url-pattern>/ServletCarregaAreas</url-pattern>
+   </servlet-mapping>
+   
+   <servlet>
+      <servlet-name>ServletCarregaInformacoesArea</servlet-name>
+      <servlet-class>Servlets.ServletCarregaInformacoesArea</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>ServletCarregaInformacoesArea</servlet-name>
+      <url-pattern>/ServletCarregaInformacoesArea</url-pattern>
+   </servlet-mapping>
+   
+   <servlet>
+      <servlet-name>ServletCarregaPublicacoes</servlet-name>
+      <servlet-class>Servlets.ServletCarregaPublicacoes</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>ServletCarregaPublicacoes</servlet-name>
+      <url-pattern>/ServletCarregaPublicacoes</url-pattern>
+   </servlet-mapping>
+   
+   <servlet>
+      <servlet-name>ServletCarregaInformacoesPublicacao</servlet-name>
+      <servlet-class>Servlets.ServletCarregaInformacoesPublicacao</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>ServletCarregaInformacoesPublicacao</servlet-name>
+      <url-pattern>/ServletCarregaInformacoesPublicacao</url-pattern>
+   </servlet-mapping>
+   
+   <servlet>
+      <servlet-name>ServletCadastraProducao</servlet-name>
+      <servlet-class>Servlets.ServletCadastraProducao</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>ServletCadastraProducao</servlet-name>
+      <url-pattern>/ServletCadastraProducao</url-pattern>
+   </servlet-mapping>
+   
+   <servlet>
+      <servlet-name>ServletUploadProducao</servlet-name>
+      <servlet-class>Servlets.ServletUploadProducao</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>ServletUploadProducao</servlet-name>
+      <url-pattern>/ServletUploadProducao</url-pattern>
+   </servlet-mapping>
+   
+   <servlet>
+      <servlet-name>ServletCarregaCadastraProducao</servlet-name>
+      <servlet-class>Servlets.ServletCarregaCadastraProducao</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>ServletCarregaCadastraProducao</servlet-name>
+      <url-pattern>/ServletCarregaCadastraProducao</url-pattern>
+   </servlet-mapping>
+   
+   <servlet>
+      <servlet-name>ServletDeletaUsuario</servlet-name>
+      <servlet-class>Servlets.ServletDeletaUsuario</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>ServletDeletaUsuario</servlet-name>
+      <url-pattern>/ServletDeletaUsuario</url-pattern>
+   </servlet-mapping>
+   
+   <servlet>
+      <servlet-name>ServletCadastraUsuario</servlet-name>
+      <servlet-class>Servlets.ServletCadastraUsuario</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>ServletCadastraUsuario</servlet-name>
+      <url-pattern>/ServletCadastraUsuario</url-pattern>
+   </servlet-mapping>
+   
+   <servlet>
+      <servlet-name>ServletPesquisaPublicacao</servlet-name>
+      <servlet-class>Servlets.ServletPesquisaPublicacao</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>ServletPesquisaPublicacao</servlet-name>
+      <url-pattern>/ServletPesquisaPublicacao</url-pattern>
+   </servlet-mapping>
+   
+   <servlet>
+      <servlet-name>ServletCarregaEditaRecursoFinanceiro</servlet-name>
+      <servlet-class>Servlets.ServletCarregaEditaRecursoFinanceiro</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>ServletCarregaEditaRecursoFinanceiro</servlet-name>
+      <url-pattern>/ServletCarregaEditaRecursoFinanceiro</url-pattern>
+   </servlet-mapping>
+   
+   <servlet>
+      <servlet-name>ServletEditaRecursoFinanceiro</servlet-name>
+      <servlet-class>Servlets.ServletEditaRecursoFinanceiro</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>ServletEditaRecursoFinanceiro</servlet-name>
+      <url-pattern>/ServletEditaRecursoFinanceiro</url-pattern>
+   </servlet-mapping>
+   
+   <servlet>
+      <servlet-name>ServletLogaVisitante</servlet-name>
+      <servlet-class>Servlets.ServletLogaVisitante</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>ServletLogaVisitante</servlet-name>
+      <url-pattern>/ServletLogaVisitante</url-pattern>
+   </servlet-mapping>
+   
+   <servlet>
+      <servlet-name>ServletDeletaRecursoFinanceiro</servlet-name>
+      <servlet-class>Servlets.ServletDeletaRecursoFinanceiro</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>ServletDeletaRecursoFinanceiro</servlet-name>
+      <url-pattern>/ServletDeletaRecursoFinanceiro</url-pattern>
+   </servlet-mapping>
+   
+   <servlet>
+      <servlet-name>ServletCadastraRecursoFinanceiro</servlet-name>
+      <servlet-class>Servlets.ServletCadastraRecursoFinanceiro</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>ServletCadastraRecursoFinanceiro</servlet-name>
+      <url-pattern>/ServletCadastraRecursoFinanceiro</url-pattern>
+   </servlet-mapping>
+   
+   <servlet>
+      <servlet-name>ServletDeletaPublicacao</servlet-name>
+      <servlet-class>Servlets.ServletDeletaPublicacao</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>ServletDeletaPublicacao</servlet-name>
+      <url-pattern>/ServletDeletaPublicacao</url-pattern>
+   </servlet-mapping>
+   
+   <servlet>
+      <servlet-name>ServletLogout</servlet-name>
+      <servlet-class>Servlets.ServletLogout</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>ServletLogout</servlet-name>
+      <url-pattern>/ServletLogout</url-pattern>
+   </servlet-mapping>
+   
+   
+  
+  
+</web-app>
